@@ -1,0 +1,117 @@
+/*Inicio*/
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
+.bbh-sans-bogle-regular {
+  font-family: "BBH Sans Bogle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern&display=swap');
+.playwrite-us-modern {
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Navegação*/
+nav{
+    font-family: "BBH Sans Bogle", sans-serif;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+/*Dispondo os links na horizontal*/
+.flex-container {
+  display:flex; 
+  flex-direction:row;
+  gap: 4rem;
+  justify-content: center;
+}
+/*Corpo da Página*/
+body{
+    background-color: rgb(196, 200, 204);
+    font-family: "Playwrite US Modern", cursive;
+}
+/*Títulos estilizados*/
+h1{
+    color: rgb(0, 2, 121);
+    text-align: center;
+}
+#titulo{
+    font-family: "BBH Sans Bogle", sans-serif;
+}
+h2{
+  color: rgb(0, 17, 255);
+}
+h3{
+  color: rgb(0, 17, 255);
+}
+h4{
+  color: rgb(0, 17, 255);
+}
+/*Cor do nome*/
+#pessoa{
+  color: rgb(80, 103, 233);
+}
+/*links*/
+a:link{
+    color: rgb(10, 39, 68);
+}
+a:visited{
+    color: rgb(82, 23, 138);
+}
+/*Tamanho dos títulos*/
+h2,h3,h4{
+    font-size: large;
+}
+/*Sobre mim*/
+#sobre_mim{
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 25px;
+}
+/*Estilização dos Projetos*/
+#Projeto1{
+  background-color: rgb(94, 178, 211);
+  border: 5px transparent;
+}
+#Projeto2{
+
+  background-color: rgb(243, 253, 93);
+  border: 5px transparent;
+}
+/*Cor dos paragrafos dos projetos*/
+#p1{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+#p2{
+  color: #20143b;
+}
+/*Os dois "div" dos Projetos com o mesmo tamanho*/
+.tamanho{
+  padding: 20px;
+  border-radius: 5px;
+  margin: 30px auto;
+  min-height: 100px; 
+}
+/*Secção form*/
+form{
+  border: 2px dashed rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 25px;
+}
+/*Botão*/
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #444142;
+  color: white;
+  border-radius: 15px;
+}
+/*Contactos*/
+#contactos{
+  border-color: 1px black;
+  padding: 30px;
+}
+

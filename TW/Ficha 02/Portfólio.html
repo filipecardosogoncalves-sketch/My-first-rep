@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O meu portfólio</title>
+    <link rel="stylesheet" href="Portfólio.css">
+</head>
+<body>
+    <header>
+        <nav>
+         <ul class="flex-container">
+            <li><a href="#titulo">Início</a></li>
+            <li><a href="#sobre_mim">Sobre mim</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Contactos">Contactos</a></li>
+         </ul>
+        </nav>
+        <br>
+        <h1 id="titulo" class="titulo">O meu portfólio</h1>
+    </header>
+    <br><br><br>
+    <main>
+        <section id="sobre_mim"><!--Secção, Sobre mim-->
+           <h2>Sobre mim:</h2>
+           <p id="pessoa">Filipe Gonçalves</p>
+           <p>Web developer, knowlegde in HTML, Python and CSS</p>
+        </section>
+        <br><br>
+        <section id="Projetos"><!--Secção Projetos-->
+            <h3>Projetos</h3>
+            <div id="Projeto1" class="tamanho">
+                <p id="p1">Projeto 1</p>
+                <p id="p2">Página simples em HTML com secções sobre perfil, contactos e interesses. Estrutura organizada e etiquetas semânticas para facilitar a leitura e a navegação.</p>
+            </div>
+            <div id="Projeto2" class="tamanho">
+                <p id="p1">Projeto 2</p>
+                <p id="p2">Página com uma lista de produtos, cada um com nome, imagem e preço. Conteúdo distribuído em blocos claros, ideal para treinar organização visual e estrutura em HTML.</p>
+            </div>
+        </section>
+        <br>
+        <section id="Contactos">
+            <h4>Contactos</h4>
+            <form>
+              <label for="nome">Nome:</label>
+              <br>
+              <input type="text" id="nome" name="Nome" placeholder="Filipe Gonçalves"><br>
+
+              <label for="email">Email:</label>
+              <br>
+              <input type="email" id="email" name="Email" placeholder="filipe.cardoso.gonçalves@gmail.com"><br>
+
+              <label for="mensagem">Mensagem:</label>
+              <br>
+              <textarea type="mensagem" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem..."></textarea>
+              <br>
+
+              <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

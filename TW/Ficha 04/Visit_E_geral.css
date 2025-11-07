@@ -1,0 +1,46 @@
+nav{
+    font-family: "BBH Sans Bogle", sans-serif;
+    position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: rgb(43, 43, 138);
+     height: 50px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    gap: 30px;
+    padding: 15px;
+}
+#título1{
+  justify-content: start;
+}
+.links{
+  justify-content: end;
+}
+a {
+  color: white; /* cor normal do link */
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 0); /* cor quando o rato passa por cima */
+}
+.menu{
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
