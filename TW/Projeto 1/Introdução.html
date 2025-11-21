@@ -10,23 +10,79 @@
 <body>
     <header>
         <nav class="flex-container">
-            <a href="" id="titulo">Chronicles</a>
+            <div id="cabeçalho">
+               <a href="" id="titulo">Chronicles</a>
+            </div>
             <div class="links">
+              <button id="Butao">Subscrever</button>
               <a href="">Início</a>
               <a href="Pagina_2.html">História</a>
               <a href="Pagina_3.html">Curiosidades</a>
             </div>
+            <span class="menu">&#9776;</span>
         </nav>
     </header>
     <br><br><br>
     <main>
-        <p id="p1">Bem vindo ao mundo de...</p>
-        <h1>Napoleão Bonaparte</h1>
+        <section class="intro">
+            <br>
+            <p id="p1">Bem vindo ao mundo de...</p>
+            <h1>Napoleão Bonaparte</h1>
+        </section>
         <br>
+        <div id="paragrafo">
         <p>Prepare-se para mergulhar na vida de um dos personagens mais fascinantes da história europeia. Napoleão Bonaparte não foi apenas um general brilhante — foi um estratega visionário, um reformador audaz e um símbolo duradouro de ambição e poder.</p>
+        </div>
         <br>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH3B4wkKyUr3_gLnhPYUl_orcdERD_sFD0UQ&s" alt="" id="napoleao1">
+        <section class="container">
+             <div id="img1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH3B4wkKyUr3_gLnhPYUl_orcdERD_sFD0UQ&s" alt="" id="napoleao1">
+             </div>
+             <div id="tabela">
+                <table border="1">
+                    <tr>
+                        <th>Dados Pessoais</th>
+                    </tr>
+                    <tr>
+                        <td>Data de Nascimento</td>
+                        <td>15 de agosto de 1769, Ajaccio, Córsega, França</td>
+                    </tr>
+                    <tr>
+                        <td>Data de Faleciemnto</td>
+                        <td>5 de maio de 1821 (51 anos)Longwood, Santa Helena</td>
+                    </tr>
+                    <tr>
+                        <td>Esposas</td>
+                        <td>Josefina de Beauharnais(1796-1810) e Maria Luísa da Áustria (1810-1821)</td>
+                    </tr>
+                    <tr>
+                        <td>Descendencia</td>
+                        <td>Napoleão II de França</td>
+                    </tr>
+                </table>
+             </div>
+             <div id="img2">
+                <img src="data:image/jpeg;base64,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" alt="" id="napoleao2">
+        </section>
+        <hr>
         <br>
+        <h2>Conteúdo Interativo</h2>
+        <br>
+        <div id="p3">
+          <p>Neste espaço, temos a opção de explorar o tema de forma mais visual e interativa através do conteúdo apresentado no vídeo abaixo. Esta abordagem permite uma compreensão mais clara e envolvente dos acontecimentos, recorrendo a elementos visuais e narrativos que complementam a informação textual. Ao assistir, poderá aprofundar o seu conhecimento de maneira dinâmica, beneficiando de uma experiência que alia rigor histórico à acessibilidade comunicativa.</p>
+        </div>
+        <br>
+        <div id="video">
+           <iframe width="800" height="415" 
+            src="https://www.youtube.com/embed/uC8TK7GH85o?si=nS4-UUWVBPDQflLw" 
+            title="YouTube video player" 
+           ></iframe>
+        </div>
     </main>
+    <br><br><br>
+    <footer>
+        <span>Copyright &copy; | Filipe Gonçalves</span>
+    </footer>
+    <br>
 </body>
 </html>

@@ -1,12 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jacquard+24&family=Stack+Sans+Headline:wght@200&display=swap');
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 nav{
     position: fixed;
      top: 0;
      left: 0;
      width: 100%;
      background-color: rgb(114, 35, 35);
-     height: 50px;
+     height: 60px;
     margin-right: 70px;
 }
+.menu{
+  display: none;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
 .flex-container{
     display: flex;
     justify-content: space-between;
@@ -17,7 +39,8 @@ nav{
 }
 #titulo{
     justify-content: start;
-    font-size: 50px;
+    font-size: 70px;
+    font-family: "Jacquard 24", system-ui;
 }
 a{
     font-size: x-large;
@@ -26,4 +49,27 @@ a{
 }
 a:hover {
   color: rgb(0, 0, 0);
+}
+#Butao{
+  border: none;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(218, 160, 0);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 30px;
+}
+#Butao:hover{
+  background-color: white;
+}
+#cabeçalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,0 +1,13 @@
+Poryugal;Europa
+Espanha;Europa  
+França;Europa  
+Itália;Europa  
+Suécia;Europa  
+EUA;América  
+Brasil;América  
+Peru;América  
+Colômbia;América  
+China;Ásia  
+Japão;Ásia  
+Tailândia;Ásia  
+Malásia;Ásia
